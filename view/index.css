@@ -14,7 +14,7 @@ body {
 }
 
 body {
-  background: #E1332D;
+  background: black;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
@@ -96,7 +96,7 @@ p a {
 }
 p a:hover {
   background: white;
-  color: #E1332D;
+  color: black;
 }
 
 .btn {
@@ -122,7 +122,7 @@ p a:hover {
 }
 
 .btn-1 {
-  background: #e02c26;
+  background: black;
   font-weight: 100;
 }
 .btn-1 svg {
@@ -141,7 +141,7 @@ p a:hover {
 }
 
 .btn-1:hover {
-  background: rgba(225, 51, 45, 0);
+  background: rgba(0, 0, 0, 0);
   font-weight: 900;
   letter-spacing: 1px;
 }
@@ -189,21 +189,21 @@ p a:hover {
 }
 
 .btn-3 {
-  background: #e3403a;
-  border: 1px solid #da251f;
-  box-shadow: 0px 2px 0 #d6251f, 2px 4px 6px #e02a24;
+  background: #080808;
+  border: 1px solid black;
+  box-shadow: 0px 2px 0 black, 2px 4px 6px black;
   font-weight: 900;
   letter-spacing: 1px;
   transition: all 150ms linear;
 }
 
 .btn-3:hover {
-  background: #e02c26;
+  background: black;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
-  color: #ec817d;
+  color: #2e2e2e;
   text-decoration: none;
-  text-shadow: -1px -1px 0 #c2211c;
+  text-shadow: -1px -1px 0 black;
   transition: all 250ms linear;
 }
 
@@ -252,4 +252,4 @@ p a:hover {
   text-shadow: 1px 1px 2px #427388;
 }
 
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=index.css.map */
