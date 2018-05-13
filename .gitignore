@@ -1,1 +1,5 @@
+# Dependency directories
 node_modules
+
+# css files
+public/css/
