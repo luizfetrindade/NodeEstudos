@@ -10,21 +10,19 @@
   border-bottom: 1px solid rgba(105, 99, 99, 0.4);
   -webkit-transition: height 0.3s;
   
-  .container {
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    
+
+  h1{
+    margin-left: 3vh;
   }
-  
   a {       
     color: rgb(252, 249, 249);
   }
-  
-  nav {
+
+    nav {
     float: right;
-    line-height: 5%;
     font-size: 1.0em;
+    margin-top: -5vh;
+    margin-right: 3vh;
     a {
       margin-left: 3vw;
     }
@@ -39,9 +37,8 @@
 
   }
   
+
+  
 }
 
-.container {
-  height: 40vh; 
-}
 }
