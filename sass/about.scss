@@ -3,10 +3,13 @@
 
 
 .abt {
-  * {box-sizing: border-box; margin: 0; padding: 0;}
+  * {box-sizing: border-box; margin: 0; padding: 0;
+    background-color: #222;}
+  
   // options
 $ticks: false;  // show or hide section ticks on nav
-$text-color: #222;
+$text-color: rgb(255, 255, 255);
+
 $wrap-width: 1140px;
 $paragraph-line-height:   1.4;
 $paragraph-bottom-margin: 18px;
