@@ -18,11 +18,12 @@
   },
   "homepage": "https://github.com/luizfetrindade/NodeEstudos#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "handlebars": "^4.0.11"
+    "express": "^4.15.5",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "node-sass-middleware": "^0.11.0"
   },
   "devDependencies": {
     "jest": "^22.4.3"
   }
-  
 }
