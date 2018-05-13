@@ -14,6 +14,7 @@
     width: 90%;
     height: 100%;
     margin: 0 auto;
+    
   }
   
   a {       
@@ -28,6 +29,13 @@
       margin-left: 3vw;
     }
     
+    a:hover{
+      
+      border-bottom: 1px solid;
+      outline-offset: 15px;
+      text-shadow: 2px 1px 2px #94aedd; 
+      
+    }
 
   }
   
