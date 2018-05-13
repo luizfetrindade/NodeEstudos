@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
     res.render('index')
 });
 
+app.get('/about', (req, res) => {
+    res.render('about')
+});
+
 app.listen(app.get('port'),()=>
 console.log("Servidor rodando na porta"+app.get('port'))
 )
