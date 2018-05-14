@@ -1,6 +1,19 @@
-*{
-    .body{
-        background-color: black;
-    }
+$red: rgb(0, 0, 0);
+$white: #fff;
+body{
     background-color: black;
-}
+  }
+  .container { 
+    align-items: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  padding: 1em;
+  text-align: center; 
+    
+    @media (min-width: 600px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  }
+  

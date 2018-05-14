@@ -1,127 +1,19 @@
-.abt {
-  
-  * {box-sizing: border-box; margin: 0; padding: 0;
-    background-color: #222;}
-  
-  // options
-$ticks: false;  // show or hide section ticks on nav
-$text-color: rgb(255, 255, 255);
-
-$wrap-width: 1140px;
-$paragraph-line-height:   1.4;
-$paragraph-bottom-margin: 18px;
-.wrap {
-	margin: 0 auto;
-	max-width: $wrap-width;
-  padding: 0 20px;
-}
-
-header {
-	position: relative;
-	z-index: 999;
-}
-
-section {
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  padding-right: 100px;
-  transition: .5s ease;
-  &:nth-child(odd){background-color: darken(white,3)}
-  
-  &.intro {
-    text-align: center;
-    h2,h5 {font-weight: 300; margin-bottom: 10px;}
+$red: rgb(0, 0, 0);
+$white: #fff;
+body{
+    background-color: black;
   }
-}
-
-
-h1,h2,h3,h4,h5,h6,p {
-  color: $text-color;
-}
-h1 {
-  font-size: 8vw;
-  font-family: serif;
-  font-weight: bold;
-}
-p {
-	line-height: $paragraph-line-height;
-	margin-bottom: $paragraph-bottom-margin;
-}
-
-body.dragging {
-  section {
-    transform: scale(.7);
-    transform-origin: center center;
-  }
-}
-
-.slider-navigation {
-  position: fixed;
-  top: 5%;
-  right: 50px;
-  height: 90%;
-  width: 4px;
-  background: $text-color;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  .tick {
-    @if $ticks == false {
-      display: none;
-    }
-    position: relative;
-    cursor: pointer;
-    height: 4px;
-    width: 20px;
-    background: $text-color;
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translateY(-50%);
-      height: 40px;
-      width: 100%;
-      z-index: -1;
-    }
-  }
-
-  .nav-pointer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: $text-color;
-    color: white;
-    font-weight: 300;
-    font-size: 12px;
-    padding: 3px 8px;
-    cursor: pointer;
-    height: 22px;
-    width: 44px;
-    text-align: center;
-    display: flex;
+  .container { 
     align-items: center;
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translateY(-50%);
-      height: 40px;
-      width: 100%;
-      z-index: -1;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  padding: 1em;
+  text-align: center; 
+    
+    @media (min-width: 600px) {
+        flex-direction: row;
+        justify-content: space-between;
     }
   }
-}
-
-
-
-body.dragging {
-  cursor: grab;
-  .nav-pointer {
-    transition: none;
-  }
-}
-}
+  
