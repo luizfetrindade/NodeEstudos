@@ -1,19 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+//colors
+
 $red: rgb(0, 0, 0);
 $white: #fff;
-body{
-    background-color: black;
-  }
-  .container { 
-    align-items: center;
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-  padding: 1em;
-  text-align: center; 
-    
-    @media (min-width: 600px) {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-  }
+//base styles
+
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 50%;
+  width: 100%;
+}
+
+body {
+  background: $red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container { 
+  align-items: center;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+padding: 1em;
+text-align: center; 
   
+  @media (min-width: 600px) {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+}
+
+.flex-container{
+  margin-left: 30VW;
+  margin-top: 20vh;
+  margin-right: 30vw;
+  background-color: rgba(88, 88, 88, 0.39);
+}
+h2{
+  padding-top: 3vh;
+  text-align: center;
+  color: $white;
+  font-weight: 200;
+  font-size: 5em;
+}
+
+.paragraph{
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  color: $white;
+  text-align: initial;
+  font-weight: 200;
+}
