@@ -31,8 +31,8 @@ app.get('/social', (req, res) => {
     res.render('social')
 });
 
-app.get('/tst', (req, res) => {
-    res.render('tst')
+app.get('/test', (req, res) => {
+    res.render('test')
 });
 
 app.listen(app.get('port'),()=>

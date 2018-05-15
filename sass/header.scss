@@ -1,5 +1,6 @@
 
   header {
+ 
 font-family: sans-serif;
 position: fixed;
 width: 100%;
@@ -21,7 +22,8 @@ h1{
   margin-top: 15px;
 }
 
-a {       
+a {
+         
   color: rgb(252, 249, 249);
 }
 
@@ -29,8 +31,10 @@ a {
   float: right;
   font-size: 1.0em;
   margin-right: 3vw;
+  
   a {
-    margin-left: 3vw;
+    text-decoration: none !important;
+    margin-left: 1vw;
   }
   
   a:hover{
